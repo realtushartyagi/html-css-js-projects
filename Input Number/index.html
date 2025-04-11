@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Input Element</title>
+  </head>
+  <body>
+    <input
+      type="number"
+      id="input1"
+      maxlength="1"
+      oninput="moveToNextField(this, 'input2')"
+    />
+    <input
+      type="number"
+      id="input2"
+      maxlength="1"
+      oninput="moveToNextField(this, 'input3')"
+    />
+    <input
+      type="number"
+      id="input3"
+      maxlength="1"
+      oninput="moveToNextField(this, 'input4')"
+    />
+    <input type="number" id="input4" maxlength="1" />
+
+    <script src="script.js"></script>
+  </body>
+</html>

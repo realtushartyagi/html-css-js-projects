@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  margin-top: 140px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.178);
+  border-radius: 10px;
+  font-size: 70px;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 10px 2px rgba(91, 2, 207, 0.545);
+  border: 2px solid rgba(91, 2, 207, 0.482);
+}
